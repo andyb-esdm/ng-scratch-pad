@@ -1,0 +1,7 @@
+<nav>
+    @for( route of navRoutes; track route) {
+        <a [routerLink]="route.path" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+            {{ route.title }}
+        </a>
+    }
+</nav>
