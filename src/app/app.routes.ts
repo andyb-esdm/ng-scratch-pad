@@ -14,5 +14,6 @@ export const routes: Routes = [
     { path: 'use-value', title: 'Use Value', loadComponent: () => import('./use-value/use-value.component').then(m => m.UseValueComponent), data: { nav: true } },
     { path: 'injection-token', title: 'Injection Token', loadComponent: () => import('./injection-token/injection-token.component').then(m => m.InjectionTokenComponent), data: { nav: true } },
     { path: 'use-factory', title: 'Use Factory', loadComponent: () => import('./use-factory/use-factory.component').then(m => m.UseFactoryComponent), data: { nav: true } },
+    { path: 'form', title: 'Form', loadComponent: () => import('./form/form.component').then(m => m.FormComponent), data: { nav: true } },
     { path: '**', title: 'Not Found', loadComponent: () => import('./not-found/not-found.component').then(m => m.NotFoundComponent), data: { nav: false } },
 ];
