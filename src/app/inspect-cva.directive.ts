@@ -1,5 +1,5 @@
-import { Directive, OnInit, Optional, Self, Inject, inject } from '@angular/core';
-import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
+import { Directive, OnInit, inject } from '@angular/core';
+import { NG_VALUE_ACCESSOR } from '@angular/forms';
 
 /**
  * Directive: InspectCvaDirective
